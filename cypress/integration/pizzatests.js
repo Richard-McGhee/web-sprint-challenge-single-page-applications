@@ -36,7 +36,7 @@ describe('Submit the Data', function(){
     it('Clicks on the submit button', function(){
         cy.get('[data-cy=orderButton]').click()
 
-        cy.get('h1').contains('Fake Name')
+        cy.get('h1').contains('Fake Name!')
     })
 })
 // describe('Returns Home', function(){
